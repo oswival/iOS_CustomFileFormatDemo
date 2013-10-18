@@ -36,7 +36,7 @@
 		2B27968B1808221F00CE762E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2B27968D1808221F00CE762E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2B2796A81808221F00CE762E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2B2796C21808224B00CE762E /* CustomFileFormatApp_One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFileFormatApp_One.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2796C21808224B00CE762E /* FF_App_One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FF_App_One.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2796C81808224B00CE762E /* CustomFileFormatApp_One-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomFileFormatApp_One-Info.plist"; sourceTree = "<group>"; };
 		2B2796CA1808224B00CE762E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B2796CC1808224B00CE762E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		2B2796D51808224B00CE762E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2B2796D61808224B00CE762E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B2796D81808224B00CE762E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2B2796F61808226C00CE762E /* CustomFileFormatApp_Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomFileFormatApp_Two.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2796F61808226C00CE762E /* FF_App_Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FF_App_Two.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2796FC1808226C00CE762E /* CustomFileFormatApp_Two-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomFileFormatApp_Two-Info.plist"; sourceTree = "<group>"; };
 		2B2796FE1808226C00CE762E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B2797001808226C00CE762E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,6 +58,8 @@
 		2B2797091808226C00CE762E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2B27970A1808226C00CE762E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2B27970C1808226C00CE762E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B8D3E581811163900040F96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BC87B87181115E8001FEE2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				2B2796861808221F00CE762E /* CustomFileFormat.app */,
-				2B2796C21808224B00CE762E /* CustomFileFormatApp_One.app */,
-				2B2796F61808226C00CE762E /* CustomFileFormatApp_Two.app */,
+				2B2796C21808224B00CE762E /* FF_App_One.app */,
+				2B2796F61808226C00CE762E /* FF_App_Two.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,7 +211,7 @@
 			);
 			name = FF_App_One;
 			productName = CustomFileFormatApp_One;
-			productReference = 2B2796C21808224B00CE762E /* CustomFileFormatApp_One.app */;
+			productReference = 2B2796C21808224B00CE762E /* FF_App_One.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2B2796F51808226C00CE762E /* FF_App_Two */ = {
@@ -226,7 +228,7 @@
 			);
 			name = FF_App_Two;
 			productName = CustomFileFormatApp_Two;
-			productReference = 2B2796F61808226C00CE762E /* CustomFileFormatApp_Two.app */;
+			productReference = 2B2796F61808226C00CE762E /* FF_App_Two.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -331,6 +333,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2B2796D31808224B00CE762E /* Base */,
+				2BC87B87181115E8001FEE2C /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2B2797071808226C00CE762E /* Base */,
+				2B8D3E581811163900040F96 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -429,12 +433,15 @@
 		2B2796B91808221F00CE762E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomFileFormatTest/CustomFileFormat-Prefix.pch";
 				INFOPLIST_FILE = "CustomFileFormatTest/CustomFileFormat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = CustomFileFormat;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -442,12 +449,15 @@
 		2B2796BA1808221F00CE762E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomFileFormatTest/CustomFileFormat-Prefix.pch";
 				INFOPLIST_FILE = "CustomFileFormatTest/CustomFileFormat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = CustomFileFormat;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -465,7 +475,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "CustomFileFormatApp_One/CustomFileFormatApp_One-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -481,7 +491,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomFileFormatApp_One/CustomFileFormatApp_One-Prefix.pch";
 				INFOPLIST_FILE = "CustomFileFormatApp_One/CustomFileFormatApp_One-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -501,7 +511,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "CustomFileFormatApp_Two/CustomFileFormatApp_Two-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -517,7 +527,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomFileFormatApp_Two/CustomFileFormatApp_Two-Prefix.pch";
 				INFOPLIST_FILE = "CustomFileFormatApp_Two/CustomFileFormatApp_Two-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;

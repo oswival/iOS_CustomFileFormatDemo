@@ -14,7 +14,7 @@
 					<string>customff</string>
 				</array>
 				<key>public.mime-type</key>
-				<string>public/data</string>
+				<string>application/customff</string>
 			</dict>
 			<key>UTTypeConformsTo</key>
 			<array>

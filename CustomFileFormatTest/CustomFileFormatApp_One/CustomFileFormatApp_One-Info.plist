@@ -6,30 +6,6 @@
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>${PRODUCT_NAME}</string>
-	<key>UTExportedTypeDeclarations</key>
-	<array>
-		<dict>
-			<key>UTTypeIconFile</key>
-			<string>icon.png</string>
-			<key>UTTypeTagSpecification</key>
-			<dict>
-				<key>public.filename-extension</key>
-				<array>
-					<string>customff</string>
-				</array>
-				<key>public.mime-type</key>
-				<string>public/data</string>
-			</dict>
-			<key>UTTypeConformsTo</key>
-			<array>
-				<string>public.data</string>
-			</array>
-			<key>UTTypeDescription</key>
-			<string>Custom file format</string>
-			<key>UTTypeIdentifier</key>
-			<string>com.owi.customff</string>
-		</dict>
-	</array>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -72,6 +48,30 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Custom file format</string>
+			<key>UTTypeIconFile</key>
+			<string>icon.png</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.owi.customff</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>customff</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>application/customff</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>
